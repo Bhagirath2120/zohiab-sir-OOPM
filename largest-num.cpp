@@ -30,7 +30,7 @@ int main(){
 
 int a = 17, b = 8,c = 10;
 cout<<"The largest number is: "<< largest(a,b,c)<<endl;
-cout<<"The largest numbe among 2 is: "<< largest(b,c)<<endl;
+//cout<<"The largest numbe among 2 is: "<< largest(b,c)<<endl;
 
 
 
