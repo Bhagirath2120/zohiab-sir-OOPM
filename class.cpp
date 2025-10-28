@@ -12,7 +12,7 @@ int addStudent(int R,int M,int P){        // addstudent is a function
     Per=P;
 }
      
-int SetDisplay(){                    // SetDisplay ia a function
+int SetDisplay(){                    // SetDisplay is a function
 
     cout<<Roll<<" "<< Marks<<" "<<Per<<endl;
 return 0;
