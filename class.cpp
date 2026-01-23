@@ -14,7 +14,7 @@ int addStudent(int R,int M,int P){        // addstudent is a function
      
 int SetDisplay(){                    // SetDisplay is a function
 
-    cout<<Roll<<" "<< Marks<<" "<<Per<<endl;
+    cout<<Roll<<endl<< Marks<<endl<<Per<<endl;
 return 0;
 
 }
