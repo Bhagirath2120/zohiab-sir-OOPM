@@ -6,15 +6,15 @@ using namespace std;
 class complex{
 double real, imag;
 public:
-complex ()//default constructor
+complex ()// default constructor
 {
     real =0;
     imag = 0;
 }
 complex(double r, double imag)
 {
-this->  real =real;//left one data membre
-this-> imag =imag;//right one is local var
+this->  real =real;// left one data membre
+this-> imag =imag;// right one is local var
 }
 complex(const complex &c)  //copy constructor with read only object
 {
@@ -29,6 +29,7 @@ complex add(complex obj)
     return ans;
 }
 
+complex
 {
     complex ans;
     ans.real = real+ obj.real;
