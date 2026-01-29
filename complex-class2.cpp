@@ -5,7 +5,7 @@ using namespace std;
 class complex {
     double real, imag;
 public:
-    complex() { // default constructor
+    complex() { //  default constructor
         real = 0;
         imag = 0;
     }
