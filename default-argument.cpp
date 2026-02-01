@@ -4,7 +4,7 @@
 #include<conio.h>
 using namespace std;
 
-int add(int a, int b,int c=0)
+int add(int a,  int b,int c=0)
 {cout<<"int version"<<endl;
  return a+b+c;
 }
