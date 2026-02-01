@@ -18,7 +18,7 @@ float add(int a,float b){
     return a+b;
 }
 double add(double a,double b){
-    cout<<"double version"<<endl;
+    cout<<" double version"<<endl;
     return a+b;
 }
 
@@ -27,7 +27,7 @@ int main(){
 
 //int a; float b;
 
-cout<<"Addition: "<< add(5.55f,5);
+cout<<"Addition: "<<  add(5.55f,5);
 
     getch();
 }
